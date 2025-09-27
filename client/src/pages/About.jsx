@@ -74,29 +74,39 @@ export default function About() {
           </div>
           
           <div className="space-y-6">
-            {/* Three Ten International Company */}
-            <div className="relative">
-              <img 
-                src="/assets/images/company-image.jpeg" 
-                alt="Three Ten International Company" 
-                className="rounded-xl shadow-lg w-full h-64 object-cover"
-                data-testid="image-company"
-              />
-              <div className="absolute bottom-4 left-4 bg-card/90 backdrop-blur-sm rounded-lg p-3">
-                <p className="text-sm font-medium text-foreground">Three Ten International - Your trusted partner</p>
+            {/* Company Information Section */}
+            <div className="space-y-4">
+              <div className="bg-card p-4 rounded-lg border border-border">
+                <h4 className="font-semibold text-foreground mb-2">Three Ten International</h4>
+                <p className="text-muted-foreground text-sm">Your trusted partner in organic agricultural exports, connecting premium Indian organic products with global supply chains.</p>
+              </div>
+              
+              {/* Three Ten International Company Image - Full Size */}
+              <div>
+                <img 
+                  src="/assets/images/company-image.jpeg" 
+                  alt="Three Ten International Company" 
+                  className="rounded-xl shadow-lg w-full h-72 object-cover"
+                  data-testid="image-company"
+                />
               </div>
             </div>
             
-            {/* Modern processing and manufacturing facility */}
-            <div className="relative">
-              <img 
-                src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=600" 
-                alt="Modern food processing facility" 
-                className="rounded-xl shadow-lg w-full h-64 object-cover"
-                data-testid="image-facility"
-              />
-              <div className="absolute bottom-4 right-4 bg-card/90 backdrop-blur-sm rounded-lg p-3">
-                <p className="text-sm font-medium text-foreground">...to verified export supply chains</p>
+            {/* Processing Facility Section */}
+            <div className="space-y-4">
+              <div className="bg-card p-4 rounded-lg border border-border">
+                <h4 className="font-semibold text-foreground mb-2">Modern Processing Facilities</h4>
+                <p className="text-muted-foreground text-sm">State-of-the-art processing and manufacturing facilities with verified export supply chains ensuring quality from farm to delivery.</p>
+              </div>
+              
+              {/* Modern processing facility Image - Full Size */}
+              <div>
+                <img 
+                  src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=600" 
+                  alt="Modern food processing facility" 
+                  className="rounded-xl shadow-lg w-full h-72 object-cover"
+                  data-testid="image-facility"
+                />
               </div>
             </div>
           </div>
