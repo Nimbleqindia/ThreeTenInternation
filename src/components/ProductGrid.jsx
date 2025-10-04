@@ -16,7 +16,7 @@ const products = [
 
 export default function ProductGrid() {
   const handleDownloadSpec = (productName) => {
-    const specFile = `/assets/pdfs/specs/${productName.toLowerCase().replace(/\s+/g, '-')}-specs.pdf`;
+    const specFile = `/pdfs/specs/${productName.toLowerCase().replace(/\s+/g, '-')}-specs.pdf`;
     const link = document.createElement('a');
     link.href = specFile;
     link.download = `${productName.toLowerCase().replace(/\s+/g, '-')}-specifications.pdf`;

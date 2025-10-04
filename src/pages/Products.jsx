@@ -7,26 +7,26 @@ const featuredProducts = [
   {
     name: "Organic Soy Lecithin",
     description: "Non-GMO, food-grade, viscosity-controlled, ready for pharma & food industries.",
-    image: "/assets/images/products/soy-lecithin.png",
+    image: "/images/products/soy-lecithin.png",
     specs: {
       "Purity Level": "99.5%",
       "Moisture": "< 2%",
       "Viscosity": "Controlled"
     },
     certifications: ["Organic", "Non-GMO", "Kosher"],
-    coaFile: "/assets/pdfs/coa/organic-soy-lecithin-coa.pdf"
+    coaFile: "/pdfs/coa/organic-soy-lecithin-coa.pdf"
   },
   {
     name: "Organic Soybean Meal",
     description: "High-protein content, ideal for animal feed and food manufacturing applications.",
-    image: "/assets/images/products/soybean-meal.png",
+    image: "/images/products/soybean-meal.png",
     specs: {
       "Protein Content": "48% min",
       "Moisture": "< 12%",
       "Fat Content": "< 3%"
     },
     certifications: ["Organic", "Non-GMO", "High Protein"],
-    coaFile: "/assets/pdfs/coa/organic-soybean-meal-coa.pdf"
+    coaFile: "/pdfs/coa/organic-soybean-meal-coa.pdf"
   }
 ];
 
@@ -53,7 +53,7 @@ export default function Products() {
   };
 
   const handleDownloadSpecs = (productName) => {
-    const specFile = `/assets/pdfs/specs/${productName.toLowerCase().replace(/\s+/g, '-')}-specs.pdf`;
+    const specFile = `/pdfs/specs/${productName.toLowerCase().replace(/\s+/g, '-')}-specs.pdf`;
     const link = document.createElement('a');
     link.href = specFile;
     link.download = `${productName.toLowerCase().replace(/\s+/g, '-')}-specifications.pdf`;

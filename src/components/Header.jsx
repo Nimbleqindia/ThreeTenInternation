@@ -21,7 +21,7 @@ export default function Header() {
           <div className="flex items-center">
             <Link href="/" className="flex-shrink-0 flex items-center space-x-3" data-testid="link-home">
               <img 
-                src="/assets/images/3ten-logo.png" 
+                src="/images/3ten-logo.png" 
                 alt="3Ten International Logo" 
                 className="rounded-md h-10 w-auto object-contain"
               />

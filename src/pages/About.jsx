@@ -53,7 +53,7 @@ export default function About() {
               <h4 className="font-semibold text-foreground mb-4">Global Certifications & Standards</h4>
               <div className="bg-card p-6 rounded-lg border border-border">
                 <img 
-                  src="/assets/images/certifications/our-certifications.png" 
+                  src="/images/certifications/our-certifications.png" 
                   alt="Our Comprehensive Organic Certifications including USDA Organic, INDOCERT, JAS, EU Organic and more" 
                   className="w-full max-w-2xl mx-auto rounded-lg shadow-sm"
                   data-testid="image-all-certifications"
@@ -64,7 +64,7 @@ export default function About() {
               <div className="mt-6 bg-card p-4 rounded-lg border border-border">
                 <h5 className="font-semibold text-foreground mb-3">Accredited Organic Certification Details</h5>
                 <img 
-                  src="/assets/images/certifications/indocert-certificate.png" 
+                  src="/images/certifications/indocert-certificate.png" 
                   alt="INDOCERT Organic Certification Details" 
                   className="w-full max-w-md mx-auto rounded-lg shadow-sm"
                   data-testid="image-indocert-details"
@@ -84,7 +84,7 @@ export default function About() {
               {/* Three Ten International Company Image - Full Size */}
               <div>
                 <img 
-                  src="/assets/images/company-image.jpeg" 
+                  src="/images/company-image.jpeg" 
                   alt="Three Ten International Company" 
                   className="rounded-xl shadow-lg w-full h-72 object-cover"
                   data-testid="image-company"
