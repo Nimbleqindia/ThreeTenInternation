@@ -23,7 +23,7 @@ export default function Header() {
               <img 
                 src="/assets/images/3ten-logo.png" 
                 alt="3Ten International Logo" 
-                className="h-10 w-auto object-contain"
+                className="rounded-md h-10 w-auto object-contain"
               />
               <div>
                 <h1 className="text-xl font-bold text-primary">Three Ten International</h1>
